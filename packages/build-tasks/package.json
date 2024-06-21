@@ -13,7 +13,7 @@
         }
     },
     "panel": {
-        "main": "js/src/view/build-tasks-panel/index.js",
+        "main": "js/view/build-tasks-panel/index.js",
         "type": "dockable",
         "title": "Build Tasks",
         "width": 500,
@@ -24,6 +24,10 @@
             "src/**/*"
         ],
         "ignore": []
+    },
+    "runtime-resource": {
+        "path": "src",
+        "name": "build-tasks"
     },
     "dependencies": {
         "@types/node": "^20.14.7",
