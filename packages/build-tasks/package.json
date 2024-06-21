@@ -1,0 +1,32 @@
+{
+    "name": "build-tasks",
+    "version": "0.0.1",
+    "description": "Extension for creating multiple build tasks and settings.",
+    "author": "KDJ",
+    "main": "js/main.js",
+    "main-menu": {
+        "i18n:MAIN_MENU.package.title/build-tasks/Build Tasks": {
+            "message": "build-tasks:open-build-tasks-panel"
+        },
+        "i18n:MAIN_MENU.package.title/build-tasks/reload": {
+            "message": "build-tasks:reload"
+        }
+    },
+    "panel": {
+        "main": "js/src/view/build-tasks-panel/index.js",
+        "type": "dockable",
+        "title": "Build Tasks",
+        "width": 500,
+        "height": 600
+    },
+    "reload": {
+        "renderer": [
+            "src/**/*"
+        ],
+        "ignore": []
+    },
+    "dependencies": {
+        "@types/node": "^20.14.7",
+        "typescript": "^5.5.2"
+    }
+}
