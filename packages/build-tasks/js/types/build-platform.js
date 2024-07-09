@@ -1,0 +1,23 @@
+"use strict";
+var BuildPlatform;
+(function (BuildPlatform) {
+    BuildPlatform["WEB_MOBILE"] = "web-mobile";
+    BuildPlatform["WEB_DESKTOP"] = "web-desktop";
+    BuildPlatform["ANDROID"] = "android";
+    BuildPlatform["WIN32"] = "win32";
+    BuildPlatform["IOS"] = "ios";
+    BuildPlatform["MAC"] = "mac";
+    BuildPlatform["WECHATGAME"] = "wechatgame";
+    BuildPlatform["WECHATGAME_SUBCONTEXT"] = "wechatgame-subcontext";
+    BuildPlatform["BAIDUGAME"] = "baidugame";
+    BuildPlatform["BAIDUGAME_SUBCONTEXT"] = "baidugame-subcontext";
+    BuildPlatform["XIAMOI"] = "xiaomi";
+    BuildPlatform["ALIPAY"] = "alipay";
+    BuildPlatform["QGAME"] = "qgame";
+    BuildPlatform["QUICKGAME"] = "quickgame";
+    BuildPlatform["HUAWEI"] = "huawei";
+    BuildPlatform["COCOSPLAY"] = "cocosplay";
+    BuildPlatform["FB_INSTANT_GAMES"] = "fb-instant-games";
+    BuildPlatform["ANDROID_INSTANT"] = "android-instant";
+})(BuildPlatform || (BuildPlatform = {}));
+module.exports = BuildPlatform;

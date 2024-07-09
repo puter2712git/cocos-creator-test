@@ -1,0 +1,5 @@
+<section class="layout vertical flex-1" style="background-color: var(--base-gray); overflow-y: auto">
+  <div class="layout vertical" style="margin: 10px; padding: 10px 5px; gap: 15px">
+    <build-task-component v-for="(index, buildTask) in buildTasks" :index="index" :build-task="buildTask" />
+  </div>
+</section>

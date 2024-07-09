@@ -1,6 +1,9 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-function load() { }
+var ProfileManager = require("./common/profile-manager");
+function load() {
+    ProfileManager.instance.StartUp();
+}
 function unload() { }
 var app = {
     load: load,

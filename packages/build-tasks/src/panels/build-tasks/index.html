@@ -1,0 +1,12 @@
+<div class="fit panel">
+  <!-- Build Tasks Page -->
+  <section class="fit layout vertical" v-if="!isConfig">
+    <build-task-toolbar @build-task-create="createBuildTask"></build-task-toolbar>
+    <build-task-area :build-tasks="buildTasks"></build-task-area>
+  </section>
+
+  <!-- Build Task Configuration Page -->
+  <section class="fit layout vertical" style="padding: 10px 10px" v-else>
+    <config-page :build-task.sync="currTask" @config-page-exit="closeConfigPage"></config-page>
+  </section>
+</div>
