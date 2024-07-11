@@ -1,0 +1,26 @@
+<div class="fit panel">
+  <section class="fit layout vertical" v-if="!isConfig">
+    <build-toolbar @create="createBuildTask"></build-toolbar>
+
+    <div
+      class="layout vertical flex-1"
+      style="padding: 10px; gap: 10px; overflow-y: auto"
+    >
+      <template v-for="(index, buildTask) in buildTasks" track-by="$index">
+        <build-task
+          :build-task="buildTask"
+          :index="index"
+          @remove="removeBuildTask"
+          @config="setConfigPage"
+        ></build-task>
+      </template>
+    </div>
+  </section>
+
+  <section class="fit layout vertical" style="padding: 10px" v-else>
+    <config-page
+      :build-task="currBuildTask"
+      :index="currBuildTaskIndex"
+    ></config-page>
+  </section>
+</div>

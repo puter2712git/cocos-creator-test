@@ -1,0 +1,14 @@
+<div
+  class="layout horizontal"
+  style="width: 100%; background-color: var(--dark-gray); padding: 5px"
+>
+  <ui-button class="layout center" @click="createBuildTaskEmit"
+    >New Build Task</ui-button
+  >
+  <ui-button class="layout center" @click="setCocosCreatorPath">
+    Set Cocos Creator Path
+  </ui-button>
+  <div class="self-end" style="color: white; font-size: 12px">
+    Cocos Creator path: {{ cocosPath }}.
+  </div>
+</div>

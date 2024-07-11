@@ -1,0 +1,26 @@
+<section
+  class="layout vertical flex-1"
+  style="
+    padding: 5px;
+    max-height: 300px;
+    background-color: var(--deep-black);
+    border: solid 1px black;
+  "
+>
+  <ui-checkbox
+    style="padding-bottom: 5px; border-bottom: solid 1px var(--dark-gray)"
+    v-value="isSelectAll"
+    @confirm="onSelectAllChange"
+    >Select All</ui-checkbox
+  >
+  <div
+    class="layout vertical flex-1"
+    style="gap: 5px; overflow-x: auto; overflow-y: auto"
+  >
+    <template v-for="(index, scene) in buildTask.scenes">
+      <ui-checkbox :is-disabled="scene.isStart" v-value="scene.isIncluded"
+        >{{ scene.name }}</ui-checkbox
+      >
+    </template>
+  </div>
+</section>

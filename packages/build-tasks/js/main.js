@@ -4,6 +4,7 @@ var ProfileManager = require("./common/profile-manager");
 function load() {
     ProfileManager.instance.StartUp();
 }
+var a = 'test';
 function unload() { }
 var app = {
     load: load,
@@ -11,6 +12,7 @@ var app = {
     messages: {
         'open-build-tasks-panel': function () {
             Editor.Panel.open('build-tasks');
+            Editor.log(a);
         },
         reload: function () {
             Editor.Package.reload(Editor.Package.packagePath('build-tasks'));

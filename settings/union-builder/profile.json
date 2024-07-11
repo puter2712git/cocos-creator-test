@@ -1,0 +1,407 @@
+{
+    "buildTasks": [
+        {
+            "name": "web-mobile",
+            "title": "default title",
+            "platform": "web-mobile",
+            "buildPath": { "basePath": "D:\\test-projects\\cocos-creator-test/build", "folderPath": "a" },
+            "scenes": [
+                {
+                    "path": "db://assets/Tests/0. Basic/0. Property/Scenes/00_Property.fire",
+                    "name": "db://assets/Tests/0. Basic/0. Property/Scenes/00_Property.fire",
+                    "uuid": "13df76cc-2a92-4048-a936-1625b640aa91",
+                    "isStart": true,
+                    "isIncluded": true
+                },
+                {
+                    "path": "db://assets/Tests/0. Basic/1. Custom ccclass data type/Scenes/01_CustomDataType.fire",
+                    "name": "db://assets/Tests/0. Basic/1. Custom ccclass data type/Scenes/01_CustomDataType.fire",
+                    "uuid": "2caa4384-eb20-4401-888e-ead777d36feb",
+                    "isStart": false,
+                    "isIncluded": false
+                },
+                {
+                    "path": "db://assets/Tests/0. Basic/2. Draw/Scenes/02_Draw.fire",
+                    "name": "db://assets/Tests/0. Basic/2. Draw/Scenes/02_Draw.fire",
+                    "uuid": "4f83265a-f806-4315-85e4-f7a15c06564f",
+                    "isStart": false,
+                    "isIncluded": false
+                },
+                {
+                    "path": "db://assets/Tests/0. Basic/3. Mask Graphics/Scenes/03_MaskGraphics.fire",
+                    "name": "db://assets/Tests/0. Basic/3. Mask Graphics/Scenes/03_MaskGraphics.fire",
+                    "uuid": "6054c070-9407-4adc-8bf8-b09ae1b61d42",
+                    "isStart": false,
+                    "isIncluded": false
+                },
+                {
+                    "path": "db://assets/Tests/0. Basic/4. Drag/Scenes/04_Drag.fire",
+                    "name": "db://assets/Tests/0. Basic/4. Drag/Scenes/04_Drag.fire",
+                    "uuid": "2ef7bdfa-eed1-4e85-a8b0-1a73aa5ab2df",
+                    "isStart": false,
+                    "isIncluded": false
+                },
+                {
+                    "path": "db://assets/Tests/0. Basic/5. Bottom Video/Scenes/05_BottomVideo.fire",
+                    "name": "db://assets/Tests/0. Basic/5. Bottom Video/Scenes/05_BottomVideo.fire",
+                    "uuid": "31ae62f9-eba6-4479-8972-329cab8c2f13",
+                    "isStart": false,
+                    "isIncluded": false
+                },
+                {
+                    "path": "db://assets/Tests/0. Basic/6. Drag and Drop/Scenes/06_DnD.fire",
+                    "name": "db://assets/Tests/0. Basic/6. Drag and Drop/Scenes/06_DnD.fire",
+                    "uuid": "c4b96ac9-9359-432e-a297-6ccf677afba3",
+                    "isStart": false,
+                    "isIncluded": false
+                },
+                {
+                    "path": "db://assets/Tests/0. Basic/7. Resource Loading/Scenes/07_ResourceLoading.fire",
+                    "name": "db://assets/Tests/0. Basic/7. Resource Loading/Scenes/07_ResourceLoading.fire",
+                    "uuid": "c41e0629-6cd4-49b9-98ff-ab455e9041d9",
+                    "isStart": false,
+                    "isIncluded": false
+                },
+                {
+                    "path": "db://assets/Tests/1. Advanced/0. Async Await/Scenes/00_AsyncAwait.fire",
+                    "name": "db://assets/Tests/1. Advanced/0. Async Await/Scenes/00_AsyncAwait.fire",
+                    "uuid": "63b7ffc7-779b-4438-833d-c0aaad31aa80",
+                    "isStart": false,
+                    "isIncluded": false
+                },
+                {
+                    "path": "db://assets/Tests/1. Advanced/1. Editor Getter Setter/Scenes/01_EditorGetterSetter.fire",
+                    "name": "db://assets/Tests/1. Advanced/1. Editor Getter Setter/Scenes/01_EditorGetterSetter.fire",
+                    "uuid": "68af0f95-0d7a-4a50-a060-e054d0f49742",
+                    "isStart": false,
+                    "isIncluded": false
+                },
+                {
+                    "path": "db://assets/Tests/1. Advanced/2. Event Dispatch/Scenes/02_EventDispatch.fire",
+                    "name": "db://assets/Tests/1. Advanced/2. Event Dispatch/Scenes/02_EventDispatch.fire",
+                    "uuid": "c22103f9-5fc0-4006-9c54-f3855afd259c",
+                    "isStart": false,
+                    "isIncluded": false
+                },
+                {
+                    "path": "db://assets/Tests/1. Advanced/3. Event Emit/Scenes/03_EventEmit.fire",
+                    "name": "db://assets/Tests/1. Advanced/3. Event Emit/Scenes/03_EventEmit.fire",
+                    "uuid": "2812eebd-b424-4163-a4e0-782310e33533",
+                    "isStart": false,
+                    "isIncluded": false
+                },
+                {
+                    "path": "db://assets/Tests/1. Advanced/4. Physics Drag and Drop/Scenes/04_PhysicsDragAndDrop.fire",
+                    "name": "db://assets/Tests/1. Advanced/4. Physics Drag and Drop/Scenes/04_PhysicsDragAndDrop.fire",
+                    "uuid": "3cd4baa8-4180-433c-8bad-138f3e0bf789",
+                    "isStart": false,
+                    "isIncluded": false
+                },
+                {
+                    "path": "db://assets/Tests/1. Advanced/5. Polyfill/Scenes/05_Polyfill.fire",
+                    "name": "db://assets/Tests/1. Advanced/5. Polyfill/Scenes/05_Polyfill.fire",
+                    "uuid": "f1168818-9400-4572-9e9d-20c56765e0f0",
+                    "isStart": false,
+                    "isIncluded": false
+                },
+                {
+                    "path": "db://assets/Tests/2. Expert/0. Walk Down Node Tree/Scenes/00_WalkDownNodeTree.fire",
+                    "name": "db://assets/Tests/2. Expert/0. Walk Down Node Tree/Scenes/00_WalkDownNodeTree.fire",
+                    "uuid": "c362c51d-cd84-4560-a0d6-09ceb760a81c",
+                    "isStart": false,
+                    "isIncluded": false
+                },
+                {
+                    "path": "db://assets/Tests/2. Expert/1. Custom Decorator/Scenes/01_CustomDecorator.fire",
+                    "name": "db://assets/Tests/2. Expert/1. Custom Decorator/Scenes/01_CustomDecorator.fire",
+                    "uuid": "0c6cbba2-297a-461a-a1a7-4f8e89257f39",
+                    "isStart": false,
+                    "isIncluded": false
+                },
+                {
+                    "path": "db://assets/Tests/2. Expert/2. Custom Assembler Triangle/Scenes/02_CustomAssembler.fire",
+                    "name": "db://assets/Tests/2. Expert/2. Custom Assembler Triangle/Scenes/02_CustomAssembler.fire",
+                    "uuid": "bfeafb14-d525-4838-acc2-c51348767295",
+                    "isStart": false,
+                    "isIncluded": false
+                }
+            ],
+            "mainBundleCompressionType": "default",
+            "isInlineSpriteFrames": false,
+            "webOrientation": "auto",
+            "isVConsole": false,
+            "isMD5Cache": false,
+            "isDebug": false,
+            "isSourceMaps": false
+        },
+        {
+            "name": "web-mobile",
+            "title": "default title",
+            "platform": "web-mobile",
+            "buildPath": { "basePath": "D:\\test-projects\\cocos-creator-test/build", "folderPath": "web-mobile" },
+            "scenes": [
+                {
+                    "path": "db://assets/Tests/0. Basic/0. Property/Scenes/00_Property.fire",
+                    "name": "db://assets/Tests/0. Basic/0. Property/Scenes/00_Property.fire",
+                    "uuid": "13df76cc-2a92-4048-a936-1625b640aa91",
+                    "isStart": true,
+                    "isIncluded": true
+                },
+                {
+                    "path": "db://assets/Tests/0. Basic/1. Custom ccclass data type/Scenes/01_CustomDataType.fire",
+                    "name": "db://assets/Tests/0. Basic/1. Custom ccclass data type/Scenes/01_CustomDataType.fire",
+                    "uuid": "2caa4384-eb20-4401-888e-ead777d36feb",
+                    "isStart": false,
+                    "isIncluded": false
+                },
+                {
+                    "path": "db://assets/Tests/0. Basic/2. Draw/Scenes/02_Draw.fire",
+                    "name": "db://assets/Tests/0. Basic/2. Draw/Scenes/02_Draw.fire",
+                    "uuid": "4f83265a-f806-4315-85e4-f7a15c06564f",
+                    "isStart": false,
+                    "isIncluded": false
+                },
+                {
+                    "path": "db://assets/Tests/0. Basic/3. Mask Graphics/Scenes/03_MaskGraphics.fire",
+                    "name": "db://assets/Tests/0. Basic/3. Mask Graphics/Scenes/03_MaskGraphics.fire",
+                    "uuid": "6054c070-9407-4adc-8bf8-b09ae1b61d42",
+                    "isStart": false,
+                    "isIncluded": false
+                },
+                {
+                    "path": "db://assets/Tests/0. Basic/4. Drag/Scenes/04_Drag.fire",
+                    "name": "db://assets/Tests/0. Basic/4. Drag/Scenes/04_Drag.fire",
+                    "uuid": "2ef7bdfa-eed1-4e85-a8b0-1a73aa5ab2df",
+                    "isStart": false,
+                    "isIncluded": false
+                },
+                {
+                    "path": "db://assets/Tests/0. Basic/5. Bottom Video/Scenes/05_BottomVideo.fire",
+                    "name": "db://assets/Tests/0. Basic/5. Bottom Video/Scenes/05_BottomVideo.fire",
+                    "uuid": "31ae62f9-eba6-4479-8972-329cab8c2f13",
+                    "isStart": false,
+                    "isIncluded": false
+                },
+                {
+                    "path": "db://assets/Tests/0. Basic/6. Drag and Drop/Scenes/06_DnD.fire",
+                    "name": "db://assets/Tests/0. Basic/6. Drag and Drop/Scenes/06_DnD.fire",
+                    "uuid": "c4b96ac9-9359-432e-a297-6ccf677afba3",
+                    "isStart": false,
+                    "isIncluded": false
+                },
+                {
+                    "path": "db://assets/Tests/0. Basic/7. Resource Loading/Scenes/07_ResourceLoading.fire",
+                    "name": "db://assets/Tests/0. Basic/7. Resource Loading/Scenes/07_ResourceLoading.fire",
+                    "uuid": "c41e0629-6cd4-49b9-98ff-ab455e9041d9",
+                    "isStart": false,
+                    "isIncluded": false
+                },
+                {
+                    "path": "db://assets/Tests/1. Advanced/0. Async Await/Scenes/00_AsyncAwait.fire",
+                    "name": "db://assets/Tests/1. Advanced/0. Async Await/Scenes/00_AsyncAwait.fire",
+                    "uuid": "63b7ffc7-779b-4438-833d-c0aaad31aa80",
+                    "isStart": false,
+                    "isIncluded": false
+                },
+                {
+                    "path": "db://assets/Tests/1. Advanced/1. Editor Getter Setter/Scenes/01_EditorGetterSetter.fire",
+                    "name": "db://assets/Tests/1. Advanced/1. Editor Getter Setter/Scenes/01_EditorGetterSetter.fire",
+                    "uuid": "68af0f95-0d7a-4a50-a060-e054d0f49742",
+                    "isStart": false,
+                    "isIncluded": false
+                },
+                {
+                    "path": "db://assets/Tests/1. Advanced/2. Event Dispatch/Scenes/02_EventDispatch.fire",
+                    "name": "db://assets/Tests/1. Advanced/2. Event Dispatch/Scenes/02_EventDispatch.fire",
+                    "uuid": "c22103f9-5fc0-4006-9c54-f3855afd259c",
+                    "isStart": false,
+                    "isIncluded": false
+                },
+                {
+                    "path": "db://assets/Tests/1. Advanced/3. Event Emit/Scenes/03_EventEmit.fire",
+                    "name": "db://assets/Tests/1. Advanced/3. Event Emit/Scenes/03_EventEmit.fire",
+                    "uuid": "2812eebd-b424-4163-a4e0-782310e33533",
+                    "isStart": false,
+                    "isIncluded": false
+                },
+                {
+                    "path": "db://assets/Tests/1. Advanced/4. Physics Drag and Drop/Scenes/04_PhysicsDragAndDrop.fire",
+                    "name": "db://assets/Tests/1. Advanced/4. Physics Drag and Drop/Scenes/04_PhysicsDragAndDrop.fire",
+                    "uuid": "3cd4baa8-4180-433c-8bad-138f3e0bf789",
+                    "isStart": false,
+                    "isIncluded": false
+                },
+                {
+                    "path": "db://assets/Tests/1. Advanced/5. Polyfill/Scenes/05_Polyfill.fire",
+                    "name": "db://assets/Tests/1. Advanced/5. Polyfill/Scenes/05_Polyfill.fire",
+                    "uuid": "f1168818-9400-4572-9e9d-20c56765e0f0",
+                    "isStart": false,
+                    "isIncluded": false
+                },
+                {
+                    "path": "db://assets/Tests/2. Expert/0. Walk Down Node Tree/Scenes/00_WalkDownNodeTree.fire",
+                    "name": "db://assets/Tests/2. Expert/0. Walk Down Node Tree/Scenes/00_WalkDownNodeTree.fire",
+                    "uuid": "c362c51d-cd84-4560-a0d6-09ceb760a81c",
+                    "isStart": false,
+                    "isIncluded": false
+                },
+                {
+                    "path": "db://assets/Tests/2. Expert/1. Custom Decorator/Scenes/01_CustomDecorator.fire",
+                    "name": "db://assets/Tests/2. Expert/1. Custom Decorator/Scenes/01_CustomDecorator.fire",
+                    "uuid": "0c6cbba2-297a-461a-a1a7-4f8e89257f39",
+                    "isStart": false,
+                    "isIncluded": false
+                },
+                {
+                    "path": "db://assets/Tests/2. Expert/2. Custom Assembler Triangle/Scenes/02_CustomAssembler.fire",
+                    "name": "db://assets/Tests/2. Expert/2. Custom Assembler Triangle/Scenes/02_CustomAssembler.fire",
+                    "uuid": "bfeafb14-d525-4838-acc2-c51348767295",
+                    "isStart": false,
+                    "isIncluded": false
+                }
+            ],
+            "mainBundleCompressionType": "default",
+            "isInlineSpriteFrames": false,
+            "webOrientation": "auto",
+            "isVConsole": false,
+            "isMD5Cache": false,
+            "isDebug": false,
+            "isSourceMaps": false
+        },
+        {
+            "name": "web-mobile",
+            "title": "default title",
+            "platform": "web-mobile",
+            "buildPath": { "basePath": "D:\\test-projects\\cocos-creator-test/build", "folderPath": "web-mobile" },
+            "scenes": [
+                {
+                    "path": "db://assets/Tests/0. Basic/0. Property/Scenes/00_Property.fire",
+                    "name": "db://assets/Tests/0. Basic/0. Property/Scenes/00_Property.fire",
+                    "uuid": "13df76cc-2a92-4048-a936-1625b640aa91",
+                    "isStart": true,
+                    "isIncluded": true
+                },
+                {
+                    "path": "db://assets/Tests/0. Basic/1. Custom ccclass data type/Scenes/01_CustomDataType.fire",
+                    "name": "db://assets/Tests/0. Basic/1. Custom ccclass data type/Scenes/01_CustomDataType.fire",
+                    "uuid": "2caa4384-eb20-4401-888e-ead777d36feb",
+                    "isStart": false,
+                    "isIncluded": false
+                },
+                {
+                    "path": "db://assets/Tests/0. Basic/2. Draw/Scenes/02_Draw.fire",
+                    "name": "db://assets/Tests/0. Basic/2. Draw/Scenes/02_Draw.fire",
+                    "uuid": "4f83265a-f806-4315-85e4-f7a15c06564f",
+                    "isStart": false,
+                    "isIncluded": false
+                },
+                {
+                    "path": "db://assets/Tests/0. Basic/3. Mask Graphics/Scenes/03_MaskGraphics.fire",
+                    "name": "db://assets/Tests/0. Basic/3. Mask Graphics/Scenes/03_MaskGraphics.fire",
+                    "uuid": "6054c070-9407-4adc-8bf8-b09ae1b61d42",
+                    "isStart": false,
+                    "isIncluded": false
+                },
+                {
+                    "path": "db://assets/Tests/0. Basic/4. Drag/Scenes/04_Drag.fire",
+                    "name": "db://assets/Tests/0. Basic/4. Drag/Scenes/04_Drag.fire",
+                    "uuid": "2ef7bdfa-eed1-4e85-a8b0-1a73aa5ab2df",
+                    "isStart": false,
+                    "isIncluded": false
+                },
+                {
+                    "path": "db://assets/Tests/0. Basic/5. Bottom Video/Scenes/05_BottomVideo.fire",
+                    "name": "db://assets/Tests/0. Basic/5. Bottom Video/Scenes/05_BottomVideo.fire",
+                    "uuid": "31ae62f9-eba6-4479-8972-329cab8c2f13",
+                    "isStart": false,
+                    "isIncluded": false
+                },
+                {
+                    "path": "db://assets/Tests/0. Basic/6. Drag and Drop/Scenes/06_DnD.fire",
+                    "name": "db://assets/Tests/0. Basic/6. Drag and Drop/Scenes/06_DnD.fire",
+                    "uuid": "c4b96ac9-9359-432e-a297-6ccf677afba3",
+                    "isStart": false,
+                    "isIncluded": false
+                },
+                {
+                    "path": "db://assets/Tests/0. Basic/7. Resource Loading/Scenes/07_ResourceLoading.fire",
+                    "name": "db://assets/Tests/0. Basic/7. Resource Loading/Scenes/07_ResourceLoading.fire",
+                    "uuid": "c41e0629-6cd4-49b9-98ff-ab455e9041d9",
+                    "isStart": false,
+                    "isIncluded": false
+                },
+                {
+                    "path": "db://assets/Tests/1. Advanced/0. Async Await/Scenes/00_AsyncAwait.fire",
+                    "name": "db://assets/Tests/1. Advanced/0. Async Await/Scenes/00_AsyncAwait.fire",
+                    "uuid": "63b7ffc7-779b-4438-833d-c0aaad31aa80",
+                    "isStart": false,
+                    "isIncluded": false
+                },
+                {
+                    "path": "db://assets/Tests/1. Advanced/1. Editor Getter Setter/Scenes/01_EditorGetterSetter.fire",
+                    "name": "db://assets/Tests/1. Advanced/1. Editor Getter Setter/Scenes/01_EditorGetterSetter.fire",
+                    "uuid": "68af0f95-0d7a-4a50-a060-e054d0f49742",
+                    "isStart": false,
+                    "isIncluded": false
+                },
+                {
+                    "path": "db://assets/Tests/1. Advanced/2. Event Dispatch/Scenes/02_EventDispatch.fire",
+                    "name": "db://assets/Tests/1. Advanced/2. Event Dispatch/Scenes/02_EventDispatch.fire",
+                    "uuid": "c22103f9-5fc0-4006-9c54-f3855afd259c",
+                    "isStart": false,
+                    "isIncluded": false
+                },
+                {
+                    "path": "db://assets/Tests/1. Advanced/3. Event Emit/Scenes/03_EventEmit.fire",
+                    "name": "db://assets/Tests/1. Advanced/3. Event Emit/Scenes/03_EventEmit.fire",
+                    "uuid": "2812eebd-b424-4163-a4e0-782310e33533",
+                    "isStart": false,
+                    "isIncluded": false
+                },
+                {
+                    "path": "db://assets/Tests/1. Advanced/4. Physics Drag and Drop/Scenes/04_PhysicsDragAndDrop.fire",
+                    "name": "db://assets/Tests/1. Advanced/4. Physics Drag and Drop/Scenes/04_PhysicsDragAndDrop.fire",
+                    "uuid": "3cd4baa8-4180-433c-8bad-138f3e0bf789",
+                    "isStart": false,
+                    "isIncluded": false
+                },
+                {
+                    "path": "db://assets/Tests/1. Advanced/5. Polyfill/Scenes/05_Polyfill.fire",
+                    "name": "db://assets/Tests/1. Advanced/5. Polyfill/Scenes/05_Polyfill.fire",
+                    "uuid": "f1168818-9400-4572-9e9d-20c56765e0f0",
+                    "isStart": false,
+                    "isIncluded": false
+                },
+                {
+                    "path": "db://assets/Tests/2. Expert/0. Walk Down Node Tree/Scenes/00_WalkDownNodeTree.fire",
+                    "name": "db://assets/Tests/2. Expert/0. Walk Down Node Tree/Scenes/00_WalkDownNodeTree.fire",
+                    "uuid": "c362c51d-cd84-4560-a0d6-09ceb760a81c",
+                    "isStart": false,
+                    "isIncluded": false
+                },
+                {
+                    "path": "db://assets/Tests/2. Expert/1. Custom Decorator/Scenes/01_CustomDecorator.fire",
+                    "name": "db://assets/Tests/2. Expert/1. Custom Decorator/Scenes/01_CustomDecorator.fire",
+                    "uuid": "0c6cbba2-297a-461a-a1a7-4f8e89257f39",
+                    "isStart": false,
+                    "isIncluded": false
+                },
+                {
+                    "path": "db://assets/Tests/2. Expert/2. Custom Assembler Triangle/Scenes/02_CustomAssembler.fire",
+                    "name": "db://assets/Tests/2. Expert/2. Custom Assembler Triangle/Scenes/02_CustomAssembler.fire",
+                    "uuid": "bfeafb14-d525-4838-acc2-c51348767295",
+                    "isStart": false,
+                    "isIncluded": false
+                }
+            ],
+            "mainBundleCompressionType": "default",
+            "isInlineSpriteFrames": false,
+            "webOrientation": "auto",
+            "isVConsole": false,
+            "isMD5Cache": false,
+            "isDebug": false,
+            "isSourceMaps": false
+        }
+    ],
+    "cocosPath": "C:\\ProgramData\\cocos\\editors\\Creator\\2.4.12\\CocosCreator.exe"
+}

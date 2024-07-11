@@ -1,0 +1,77 @@
+<section class="layout vertical flex-1" style="overflow-y: auto">
+  <ui-prop name="Title">
+    <ui-input class="flex-1" v-value="buildTask.title"></ui-input>
+  </ui-prop>
+
+  <ui-prop name="Platform">
+    <ui-select class="flex-1" v-value="buildTask.platform">
+      <option value="web-mobile">Web Mobile</option>
+      <option value="web-desktop">Web Desktop</option>
+      <option value="android">Android</option>
+    </ui-select>
+  </ui-prop>
+
+  <ui-prop name="Build Path">
+    <ui-input class="flex-1" v-value="buildTask.buildPath.basePath"></ui-input>
+    /
+    <ui-input
+      class="flex-1"
+      v-value="buildTask.buildPath.folderPath"
+    ></ui-input>
+  </ui-prop>
+
+  <ui-prop name="Start Scene">
+    <ui-select
+      class="flex-1"
+      :value="startScene.uuid"
+      @change="startSceneChange"
+    >
+      <option
+        v-for="(index, scene) in includedScenes"
+        track-by="$index"
+        :value="scene.uuid"
+      >
+        {{ scene.name }}
+      </option>
+    </ui-select>
+  </ui-prop>
+
+  <ui-prop name="Included Scenes" auto-height>
+    <config-body-scene-list
+      :build-task="buildTask"
+      :index="index"
+    ></config-body-scene-list>
+  </ui-prop>
+
+  <ui-prop name="Main Bundle Compression Type">
+    <ui-select v-value="buildTask.mainBundleCompressionType">
+      <option value="none">None</option>
+      <option value="default">Default</option>
+      <option value="merge_all_json">Merge All Json</option>
+    </ui-select>
+  </ui-prop>
+
+  <ui-prop name="Orientation">
+    <ui-select v-value="buildTask.webOrientation">
+      <option value="landscape">Landscape</option>
+      <option value="portrait">Portrait</option>
+      <option value="auto">Auto</option>
+    </ui-select>
+  </ui-prop>
+
+  <ui-prop name="vConsole">
+    <ui-checkbox v-value="buildTask.isVConsole"></ui-checkbox>
+  </ui-prop>
+
+  <ui-prop name="MD5 Cache">
+    <ui-checkbox v-value="buildTask.isMD5Cache"></ui-checkbox>
+  </ui-prop>
+
+  <ui-prop name="Debug">
+    <ui-checkbox v-value="buildTask.isDebug"></ui-checkbox>
+  </ui-prop>
+
+  <ui-prop name="Source Maps">
+    <ui-checkbox v-value="buildTask.isSourceMaps"></ui-checkbox>
+  </ui-prop>
+</section>

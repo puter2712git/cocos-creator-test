@@ -30,7 +30,9 @@
     "name": "build-tasks"
   },
   "dependencies": {
-    "@types/node": "^20.14.7",
     "typescript": "^5.5.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.10"
   }
 }

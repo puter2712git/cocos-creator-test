@@ -1,0 +1,37 @@
+{
+  "name": "union-builder",
+  "version": "0.0.1",
+  "description": "The package template for getting started.",
+  "author": "KDJ",
+  "main": "build/main.js",
+  "main-menu": {
+    "i18n:MAIN_MENU.package.title/union-builder/open": {
+      "message": "union-builder:open"
+    },
+    "i18n:MAIN_MENU.package.title/union-builder/reload": {
+      "message": "union-builder:reload"
+    }
+  },
+  "panel": {
+    "main": "build/panel/index.js",
+    "type": "dockable",
+    "title": "union-builder",
+    "width": 1200,
+    "height": 1200
+  },
+  "reload": {
+    "renderer": [
+      "src/**/*"
+    ]
+  },
+  "runtime-resource": {
+    "path": "src",
+    "name": "src"
+  },
+  "dependencies": {
+    "typescript": "^5.5.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.10"
+  }
+}

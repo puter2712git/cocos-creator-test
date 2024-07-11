@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "lib": ["es2015", "es2017", "dom"],
+    "target": "es5",
+    "experimentalDecorators": true,
+    "skipLibCheck": true,
+    "outDir": "./build",
+    "strictNullChecks": false,
+    "strict": false,
+    "removeComments": true,
+    "moduleDetection": "force"
+  },
+  "exclude": ["node_modules", "library", "local", "temp", "build", "settings"]
+}

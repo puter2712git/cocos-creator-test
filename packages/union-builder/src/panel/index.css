@@ -1,0 +1,64 @@
+.panel {
+  --dark-gray: #333333;
+  --medium-gray: #a4a4a4;
+  --light-gray: #e8e8e8;
+  --base-gray: #444444;
+  --deep-black: #212121;
+}
+
+.icon-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25px;
+  height: 25px;
+  background-color: transparent;
+  border: none;
+}
+
+.icon-btn:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  cursor: pointer;
+}
+
+.icon {
+  width: 100%;
+  height: 100%;
+}
+
+.exit-btn {
+  position: absolute;
+  top: 0px;
+  right: 10px;
+}
+
+.config-page {
+  padding: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.config {
+  width: 100%;
+  height: 100%;
+  background-color: #333333;
+  border: solid 2px black;
+  border-radius: 5px;
+}
+
+.config-header {
+  padding-bottom: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: solid 2px black;
+}
+
+.config-header-name {
+  font-size: 15px;
+  font-weight: bold;
+}
